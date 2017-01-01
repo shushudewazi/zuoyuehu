@@ -4,7 +4,7 @@ my $name = <STDIN>;
 chomp $name;
 open (NEME,">$name");
 close (NAME);
-open my $SHUJU,'>',$name or die "$0 : failed to open input file '%hash' : $!\n";
+open my $SHUJU,'>>',$name or die "$0 : failed to open input file '%hash' : $!\n";
 %hash = (
 'age' => ' ',
 'sex' => ' ',
